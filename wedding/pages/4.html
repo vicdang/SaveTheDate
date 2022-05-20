@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Blurred Transparent Background</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body class="back">
+    <div class="page-contain">
+    <div class="main-contain">
+    <div class="img-contain pv2">
+      <img class="" 
+         src="images/ig.jpg"
+         alt="Hic, ảnh bị chặn mất rồi. bạn hãy thử bằng trình duyệt nhé."
+      />
+    </div>
+    <div class="img-contain pv2">
+      <img class="" 
+         src="images/ig.jpg"
+         alt="Hic, ảnh bị chặn mất rồi. bạn hãy thử bằng trình duyệt nhé."
+      />
+    </div>
+    </div>
+  </div>
+  <span><a id="prev" href="#">Previous page</a></span>&nbsp;&nbsp;<span><a id="next" href="#">Next page</a></span>
+</body>
+<script type="text/javascript">
+  function loaded() {
+      var page = window.location.href.split("/").pop()
+      document.title = page
+      var t = parseInt(page.split(".")[0]);
+      var n = t + 1;
+      var p = t - 1;
+      document.getElementById("next").href = n + '.html';
+      document.getElementById("prev").href = p + '.html';
+  }
+  window.onload = loaded;
+</script>
+</html>
