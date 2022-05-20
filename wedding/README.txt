@@ -3,12 +3,7 @@ TITLE:
 Wedding - 100% Fully Responsive Free HTML5 Bootstrap Template
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
-
-Website: http://gettemplates.co/
-Twitter: http://twitter.com/gettemplatesco
-Facebook: http://facebook.com/gettemplatesco
-
+DESIGNED & DEVELOPED by Txstories
 
 CREDITS:
 
@@ -17,9 +12,6 @@ http://getbootstrap.com/
 
 jQuery
 http://jquery.com/
-
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
 
 Modernizr
 http://modernizr.com/
@@ -57,6 +49,4 @@ http://dimsemenov.com/plugins/magnific-popup/
 SimplyCountDown JS
 http://vincentloy.github.io/simplyCountdown.js/
 
-Demo Images:
-http://unsplash.com
 
