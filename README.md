@@ -1,2 +1,2 @@
 # SaveTheDate
-http://txstories.net
+https://vinilife.site
